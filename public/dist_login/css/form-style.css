@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 768px) {
+  .select2-container {
+      max-width: 200px !important;
+  }
+
+  /* Styles for screens with a maximum width of 768px (typical for mobile devices) */
+}
+
+.select2-container {
+  min-width: 280px !important;
+}
+
+@media screen and (min-width: 1300px) {
+
+  .tel-input {
+      padding-left: 75px;
+      height: calc(3rem + 2px) !important;
+      padding: 4px !important;
+  }
+
+  /* Modify the height and padding for the select2 dropdown */
+  .select2-dropdown {
+      padding: 4px !important;
+      /*  10px; Change the padding as needed */
+  }
+
+  /* Increase the height for the select2 container */
+  .select2-container .select2-selection {
+      /* height: calc(3.5rem + 2px); */
+      height: calc(2.1rem + 2px) !important;
+      padding: 4px !important;
+      /* 10px;  Adjust the padding as needed */
+  }
+
+  /* Increase the height and padding for the select2 dropdown */
+  .select2-container .select2-dropdown {
+      padding: 20px !important;
+      /* Adjust the padding as needed */
+  }
+}
+
+
+.select2-container--default .select2-selection--single {
+  /* border: 1px solid #ffc008   !important; */
+  height: calc(2.1rem + 2px) !important;
+  padding: 4px !important;
+}
+
+.select2-container .select2-selection--single {
+  height: calc(3rem + 2px) !important;
+  padding: 4px !important;
+  background: none !important;
+  color: #fff;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  /* color: #fff !important; */
+}
+
+/* .form-control {
+          color: rgb(69, 68, 68) !important;
+      } */
+
+/* .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel],
+                      .iti--separate-dial-code input, .iti--separate-dial-code input[type=text],  */
+.iti--separate-dial-code input[type=tel] {
+  padding-left: 85px !important;
+}
+
+.invalid-feedback {
+  color: red !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: lighter;
+
+}
+.form-control{
+font-size: 12px;
+font-weight: 200;
+font-family: sans-serif;
+color:#3c3c3c !important ;
+}   
+
+.login-container {
+  /* background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; dark */
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.invalid-feedback {
+  /* color: #fff !important; dark */
+  color: #9f0101 !important;   
+}
+
+.was-validated .form-control rounded border-secondary :invalid,
+.form-control rounded border-secondary .is-invalid,
+.form-control {
+  /* border-color: #fff !important; dark */
+}
+.iti__country-name{
+  color:#272626;
+}
+
+body,h1,.brand_text{
+  font-family: 'Noto Sans KR', sans-serif;
+}
